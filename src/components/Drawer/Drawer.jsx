@@ -46,7 +46,7 @@ const Drawer = () => {
                         </button>
                     </div>
                     {/* Mobile Drawer Content */}
-                    <div className="mt-5 pb-5">
+                    <div className="mt-5 pb-5 overflow-y-auto ">
                         <div className='px-[24px] pt-[15px] pb-[30px]'>
                         <img src={logo} alt='logo' className='w-[120px] h-[20px]' />
                         </div>

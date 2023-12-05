@@ -33,8 +33,8 @@ const Pagination = ({ page,setPage, dataLength, rowsPerPage } ) => {
           key={index}
           onClick={() => handleChangePage(index)}
           disabled={page === index}
-          className={`${page === index ? 'bg-[#F9FAFB]' : ' !text-[#000000]'
-            } p-1 md:p-[10px] rounded-[4px] md:w-[40px] text-[10px] md:text-[14px] text-[#000000] font-[500]`}
+          className={`${page === index ? '!bg-[#00000008]' : ''
+            } p-[10px] rounded-[4px] w-[40px] text-[14px] text-[#000000] font-[500]`}
         >
           {index + 1}
         </button>

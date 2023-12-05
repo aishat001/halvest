@@ -248,7 +248,7 @@ const Investments = () => {
                             <hr className='mb-[16px]' />
                             <Pagination
                                 page={page}
-                                dataLength={filteredData?.length}
+                                dataLength={investments?.length}
                                 setPage={setPage}
                                 rowsPerPage={rowsPerPage}
                             />
