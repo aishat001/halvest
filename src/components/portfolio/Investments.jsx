@@ -28,10 +28,10 @@ const Investments = () => {
     useEffect(() => {
         const fetchInvestmentData = async () => {
             try {
-                const response = await fetch('http://localhost:3001/investmentData');
+                const response = await fetch('https://mocki.io/v1/c438ad2c-429a-4eaf-b1da-82831cde36df');
                 const data = await response.json();
-                console.log(data);
-                dispatch(setInvestments(data));
+                console.log(data.investmentData);
+                dispatch(setInvestments(data.investmentData));
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
