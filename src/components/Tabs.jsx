@@ -4,7 +4,7 @@ const Tabs = ({ tabIndex, setTabIndex }) => {
   const lists = ['All Investments', 'Open Investments', 'Fully PaidOut Investments'];
 
   return (
-    <div className='overflow-hidden w-[100vw] md:w-[100%]'>
+    <div className='overflow-hidden'>
       <div className='flex flex-row rounded-[8x] w-[100%] overflow-x-auto md:overflow-hidden'>
         {lists.map((list, index) => (
           <div

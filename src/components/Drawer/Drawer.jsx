@@ -65,7 +65,7 @@ const Drawer = () => {
             </div>
 
             {/* Main Content */}
-            <div className={`lg:ml-64 flex-1 overflow-y-scroll focus:outline-none`}>
+            <div className={`lg:ml-64 flex-1  focus:outline-none`}>
 
             {/* <header className='py-[24px] px-[10px] md:px-[40px] border-b bg-[#FCFCFC] flex lg:flex-row w-[100%] '> */}
 
@@ -85,7 +85,7 @@ const Drawer = () => {
                         </div>
                     </div>
                 </header>
-                <div className='mt-[68px] px-[20px] w-[100vw] lg:w-[100%] lg:px-[32px] overflow-y-auto pt-[50px] pb-[100px]'>
+                <div className='mt-[68px] px-[20px] w-[100vw] lg:w-[100%] lg:px-[32px]  pt-[50px] pb-[100px]'>
                     <div>
                         <Breadcrumbs/>
 
