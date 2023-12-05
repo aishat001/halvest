@@ -9,7 +9,7 @@ const Portfolio = () => {
 
   return (
     <div>
-      <h1 className='text-[24px] lg:text-[30px] font-[600]'>My Porfolio</h1>
+      <h1 className='text-[24px] lg:text-[30px] font-[600] text-start'>My Porfolio</h1>
 
       <Cards/>
 

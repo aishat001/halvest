@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'TTInterfaces';
+    src: local('TTInterfaces'), url(./assets/fonts/FontsFree-Net-TTInterfaces-Regular.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  
+  #root {
+    font-family: 'TTInterfaces' sans-serif;
+    text-align: center;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #FCFCFC;
+  }
+  
 #root {
 }
 
