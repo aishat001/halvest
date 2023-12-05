@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import close from '../assets/close.svg';
 import { Select } from './Input';
 import Chip from './Chip';
 
@@ -46,7 +45,7 @@ const FilterDropdownContent = ({ selectedFilter, setSelectedFilter, onclose }) =
             <header className='relative px-[24px]'>
                 <h3 className='text-[20px] font-[600] text-[#101828]'>Filters</h3>
                 <p className='text-[16px] font-[400] text-[#475467]'>Apply filters to investments</p>
-                <img src={close} alt='close filter' onClick={onclose} className='absolute top-[0] right-[26px]' />
+                <img src={'/close.png'} alt='close filter' onClick={onclose} className='absolute top-[0] right-[26px]' />
             </header>
 
             <Select onChange={handleChange} />
