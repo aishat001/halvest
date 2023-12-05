@@ -168,7 +168,7 @@ const Investments = () => {
                     currentPageData?.map(item => (
 
 
-                        <div className='border rounded-[16px] min-w-[300px]'>
+                        <div className='border rounded-[16px] '>
                             <div className='w-[100%] h-[240px] relative'>
                                 <img src={item.image} alt='image' className='w-[100%] h-[100%] rounded-t-[16px]' />
                                 <div className='text-[12px] font-[500] text-[#344054] absolute top-[13px] right-[8px] px-[6px] py-[2px] bg-[white] rounded-[6px] border border-[#D0D5DD] flex justify-center items-center' style={{ boxShadow: ' 0px 1px 2px 0px rgba(16, 24, 40, 0.05)' }}>
