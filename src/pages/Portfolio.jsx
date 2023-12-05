@@ -5,13 +5,13 @@ import Investments from '../components/portfolio/Investments'
 
 const Portfolio = () => {
 
- 
+
 
   return (
     <div>
       <h1 className='text-[24px] lg:text-[30px] font-[600] text-start'>My Porfolio</h1>
 
-      <Cards/>
+      <Cards />
 
       <section className=' p-[10px] md:p-[32px]'>
         <header className='text-[18px] text-[#101828] font-[600] mt-[24px] text-start'>My Porfolio</header>
@@ -19,9 +19,9 @@ const Portfolio = () => {
         <PieChartWithCenterLabel />
       </section>
 
-      <Investments/>
+      <Investments />
 
-       
+
     </div>
   )
 }

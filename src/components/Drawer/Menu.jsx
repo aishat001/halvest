@@ -49,7 +49,7 @@ const Menu = () => {
                     <p className='font-[600] text-[#667085] text-center h-full w-full flex justify-center items-center'>AF</p>
                 </div>
 
-                <div className='ml-[12px] text-[13px]'>
+                <div className='ml-[12px] text-[13px] text-start'>
                     <p className='text-[#344054] font-[600]'>Ahmed Fatai</p>
                     <p className='text-[#475467] font-[400]'>Ahmed@gmail.com</p>
                 </div>

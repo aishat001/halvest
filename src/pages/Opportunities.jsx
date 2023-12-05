@@ -2,7 +2,7 @@ import React from 'react'
 
 const Opportunities = () => {
   return (
-    <div>Opportunities</div>
+    <div className='text-start'>Opportunities</div>
   )
 }
 
