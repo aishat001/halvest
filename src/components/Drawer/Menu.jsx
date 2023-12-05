@@ -51,7 +51,7 @@ const Menu = () => {
 
                 <div className='ml-[12px] text-[13px]'>
                     <p className='text-[#344054] font-[600]'>Ahmed Fatai</p>
-                    <p>Ahmed@gmail.com</p>
+                    <p className='text-[#475467] font-[400]'>Ahmed@gmail.com</p>
                 </div>
 
 
