@@ -41,6 +41,8 @@ const Menu = () => {
             )}
 
             <Banner/>
+            <hr className='w-full my-1'/>
+
 
             <div className='flex flex-row  justify-between items-center mt-2'>
                 <div className='w-[40px] h-[40px] rounded-[100%] border border-[#00000014] bg-[#F2F4F7] justify-between items-center'>
@@ -51,6 +53,7 @@ const Menu = () => {
                     <p className='text-[#344054] font-[600]'>Ahmed Fatai</p>
                     <p>Ahmed@gmail.com</p>
                 </div>
+
 
                 <img src='/logout.svg' alt='logout'  className='ml-auto'/>
             </div>
