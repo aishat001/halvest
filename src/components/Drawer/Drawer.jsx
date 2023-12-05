@@ -85,7 +85,7 @@ const Drawer = () => {
                         </div>
                     </div>
                 </header>
-                <div className='mt-[68px] px-[32px] overflow-y-auto pt-[50px] pb-[100px]'>
+                <div className='mt-[68px] px-[32px] overflow-auto pt-[50px] pb-[100px]'>
                     <div>
                         <Breadcrumbs/>
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
     return (
-        <section className='grid sm:grid-cols-3 gap-[24px] mt-[32px]'>
+        <section className='grid sm:grid-cols-3 gap-[24px] mt-[32px] text-start'>
             <div className='w-full p-[20px] flex flex-col gap-[24px] border border-[#EAECF0] rounded-[12px]' style={{ boxShadow: '0px 1px 2px 0px rgba(16, 24, 40, 0.05)' }}>
                 <div className='w-[56px] h-[56px] rounded-[100%] bg-[#2772f029] flex justify-center items-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

@@ -14,7 +14,7 @@ const Portfolio = () => {
       <Cards/>
 
       <section className=' p-[10px] md:p-[32px]'>
-        <header className='text-[18px] text-[#101828] font-[600] mt-[24px]'>My Porfolio</header>
+        <header className='text-[18px] text-[#101828] font-[600] mt-[24px] text-start'>My Porfolio</header>
         <hr className='w-full my-[20px]' />
         <PieChartWithCenterLabel />
       </section>

@@ -114,8 +114,8 @@ const Investments = () => {
 
 
     return (
-        <section>
-            <header className='text-[18px] text-[#101828] font-[600] mt-[24px] mb-[32px]'>My Investments</header>
+        <section className='text-start'>
+            <header className='text-[18px] text-[#101828] font-[600] mt-[24px] mb-[32px] text-start'>My Investments</header>
             <div className='flex flex-col lg:flex-row gap-4'>
                 <Tabs setTabIndex={setTabIndex} tabIndex={tabIndex} />
 
