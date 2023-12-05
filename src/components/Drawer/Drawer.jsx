@@ -24,7 +24,7 @@ const Drawer = () => {
             <div className={`lg:hidden ${mobileOpen ? 'block' : 'hidden'} z-[100]`}>
              
                 <div className="fixed  inset-0 z-100  shadow-lg text-white flex-1 flex flex-col max-w-xs w-full pb-4 bg-white">
-                    <div className="absolute top-0 right-0 -mr-14 p-1">
+                    <div className="absolute top-2 right-0 mr-1 p-1">
                         <button
                             className="flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white transition duration-150 ease-in-out"
                             onClick={() => setMobileOpen(false)}
